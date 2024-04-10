@@ -3,10 +3,12 @@
 3. OS labs
 4. luogu
 5. signals and systems exercises
-6. AI exercises
-7. maogai ppt
-8. OS ppt wangdao
-9. shuzhijisuan ppt
-10. jinshidaishu ppt
-11. tulun ppt
-12. signals and systems labs
+chapter 4: 28(a), 35, 36
+chapter 5: 21(e), 22(a), 21(j), 26(a, d), 21(k), 33(b.iv, c.i)
+7. AI exercises
+8. maogai ppt
+9. OS ppt wangdao
+10. shuzhijisuan ppt
+11. jinshidaishu ppt
+12. tulun ppt
+13. signals and systems labs
