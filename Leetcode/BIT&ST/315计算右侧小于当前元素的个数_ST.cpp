@@ -79,9 +79,7 @@ class Solution {
 public:
     vector<int> countSmaller(vector<int>& nums) {
         vector<int> ans;
-        int MIN = *min_element(nums.begin(), nums.end());
-        int MAX = *max_element(nums.begin(), nums.end());
-        int n = max(abs(MAX), abs(MIN)) * 2 + 10;
+        int n = nums.size();
         ST st(n);
         st.build(1, 1, n);
         st.discrete(nums);
