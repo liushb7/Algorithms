@@ -41,6 +41,8 @@ public:
     
     int reversePairs(vector<int>& record) {
         int n = record.size();
+        // n == 0时单独处理
+        if(n == 0) return 0;
         BIT bit(n);
         bit.discrete(record);
         vector<int> res;
