@@ -17,3 +17,22 @@ public:
         return ans;
     }
 };
+
+// 可以将复杂度从O(log n) + O(log x)优化到O(log n)
+class Solution {
+public:
+    long long minEnd(int n, int x) {
+        n--;
+        long long ans = x, lowbit, t = ~x, bit;
+        int j = 0;
+        while(n >> j){
+            lowbit = t & -t;
+            bit = n >> j & 1;
+            ans |= bit * lowbit;
+            t -= lowbit;
+            j++;
+        }
+        return ans;
+    }
+};
+
